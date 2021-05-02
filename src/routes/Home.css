@@ -1,3 +1,7 @@
+a{
+    text-decoration : none;
+    color : black;
+}
 body{
     margin: 0;
     padding: 0;
@@ -5,8 +9,7 @@ body{
     height: 100%;
 }
 
-html,
-body,
+
 .container{
     height: 700px;
     display: flex;
@@ -26,6 +29,7 @@ body,
     justify-content: space-evenly;
     flex-wrap: wrap;
     padding: 50px;
+    margin-top: 30px;
     width: 90%;
     align-items: flex-start;
 }
@@ -71,4 +75,31 @@ body,
 .movie li{
     display: inline-block;
     margin-right: 10px;
+}
+
+.navContainer{
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.navButton{
+    padding : 20px;
+    margin: 5px;
+    background-color: rgb(138, 216, 203);
+    box-shadow: 5px 5px 10px gray;
+    border-radius: 50px;
+}
+
+.aboutContainer{
+    display: flex;
+    padding: 20%;
+    justify-content: center;
+    align-items: center;
+}
+
+.movie_data{
+    display: flex;
+    flex-wrap: wrap;
 }

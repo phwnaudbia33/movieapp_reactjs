@@ -1,0 +1,8 @@
+.navContainer{
+    display: flex;
+    justify-content: space-between;
+}
+
+.navButton{
+    position:fixed;
+}
